@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cv</title>
+</head>
+<body>
+<form action="index.php" method="post" >
+        <label for="nom">Nom:</label>
+        <input id="nom" type="text" placeholder="nom" required><br><br>
+        <label for="Email">Email:</label>
+        <input id="Email" type="email" placeholder="email@gmail.com" required><br><br>
+        <label for="Ville">Ville:</label>
+        <input id="Ville" type="text" placeholder="Ville de residance" required><br><br>
+        <label for="Date">Date de naissance:</label>
+        <input id="Date" type="date" required><br><br>
+        <label for="objectif">objectif:</label><br>
+        <textarea name="objectif" id="objectif" rows="6" cols="0" placeholder="objectif..ext" required></textarea><br>
+        <label for="Compétences">compétences</label><br>
+        <textarea name="compétences" id="compétences" rows="6" cols="0" placeholder="compétences..ext" required></textarea><br>
+        <p>
+            Your languages:<br>
+            <input id="Ar" type="checkbox" value="Arabe">
+            <label for="Ar">Arabe</label><br>
+            <input id="En" type="checkbox" value="Englais">
+<label for="En">Englais</label><br>
+            <input id="Fr" type="checkbox" value="Francais">
+            <label for="Fr">Francais</label><br>
+        <p>
+            Annee Univ:<br>
+            <input id="2eme" type="radio" value="1er" name="annee">
+            <label for="2eme">1er</label><br>
+            <input id="2eme" type="radio" value="2eme" name="annee">
+            <label for="2eme">2eme</label><br>
+            <input id="3eme" type="radio" value="3eme" name="annee">
+            <label for="3eme">3eme</label><br>
+            <input id="4eme" type="radio" value="4eme" name="annee">
+            <label for="4eme">4eme</label><br>
+            <input id="5eme" type="radio" value="5eme" name="annee">
+            <label for="5eme">5eme</label><br>
+        </p>    
+        <label for="Ecole">Ecole:</label>
+        <select name="Ecole" id="Ecole" required>
+            <option value="ESGEN">ESGEN</option>
+            <option value="ENSSEA">ENSSEA</option>
+<option value="EHEC">EHEC</option>
+            <option value="ENSM">ENSM</option>
+            <option value="ESC">ESC</option>
+        </select><br><br>
+        </p>  
+        <input type="submit"><br>
+        <input type="reset"><br>
+    </form>
+</body>
+</html>
